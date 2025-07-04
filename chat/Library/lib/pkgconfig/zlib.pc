@@ -1,0 +1,13 @@
+prefix=D:/langchain_projects/chat/chat/Library
+exec_prefix=D:/langchain_projects/chat/chat/Library
+libdir=D:/langchain_projects/chat/chat/Library/lib
+sharedlibdir=D:/langchain_projects/chat/chat/Library/lib
+includedir=D:/langchain_projects/chat/chat/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
